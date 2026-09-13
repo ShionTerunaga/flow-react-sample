@@ -1,0 +1,47 @@
+{
+    "name": "flow-react-router-stylex",
+    "version": "6.1.0",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite --port 3000",
+        "start": "vite --port 3000",
+        "build": "vite build",
+        "serve": "vite preview",
+        "test": "vitest run",
+        "test:cv": "vitest run --coverage",
+        "flow": "flow",
+        "flow:stop": "flow stop",
+        "storybook": "storybook dev -p 6006",
+        "build-storybook": "storybook build"
+    },
+    "dependencies": {
+        "@tailwindcss/vite": "^4.0.6",
+        "@stylexjs/stylex": "^0.18.2",
+        "@testing-library/user-event": "^14.6.1",
+        "motion": "^12.23.12",
+        "react": "^19.2.5",
+        "react-dom": "^19.2.5",
+        "react-router": "^8.3.1",
+        "tailwindcss": "^4.0.6",
+        "valibot": "^1.3.1",
+        "web-vitals": "^4.2.4"
+    },
+    "devDependencies": {
+        "@storybook/react-vite": "10.3.5",
+        "@babel/core": "^8.0.5",
+        "@babel/preset-flow": "^8.0.1",
+        "@rolldown/plugin-babel": "^0.2.4",
+        "@testing-library/dom": "^10.4.0",
+        "@testing-library/react": "^16.3.0",
+        "@stylexjs/unplugin": "^0.18.2",
+        "@vitejs/plugin-react": "^6.0.3",
+        "@vitest/coverage-v8": "^5.0.0",
+        "flow-bin": "^0.331.0",
+        "flow-parser": "^0.331.0",
+        "jsdom": "^26.0.0",
+        "storybook": "10.3.5",
+        "vite": "^8.1.0",
+        "vitest": "^5.0.0"
+    }
+}

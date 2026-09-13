@@ -1,0 +1,3 @@
+{
+  "env": ["node", "html", "streams", "web-animations", "dom", "bom", "cssom", "serviceworkers", "jsx"]
+}
