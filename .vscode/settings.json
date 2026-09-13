@@ -1,11 +1,7 @@
 {
-    "files.watcherExclude": {
-        "**/routeTree.gen.js": true
-    },
-    "search.exclude": {
-        "**/routeTree.gen.js": true
-    },
-    "files.readonlyInclude": {
-        "**/routeTree.gen.js": true
-    }
+    "javascript.validate.enable": false,
+    "flow.enabled": true,
+    "flow.useNPMPackagedFlow": true,
+    "flow.useBundledFlow": false,
+    "flow.pathToFlow": "${workspaceFolder}/node_modules/.bin/flow"
 }
